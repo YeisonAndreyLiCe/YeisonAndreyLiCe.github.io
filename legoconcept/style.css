@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:auto;
+}
+
+body{
+    font-family:monospace;
+}
+
+#top{
+    padding: 0% 5%;
+    background-color: black;
+    display: flex;
+    color:white;
+    align-items: center;
+    font-size:90%;
+}
+.topleft{
+    padding-right: 5%;
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topright{
+    padding-right: 1%;
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+#singout{
+    width:auto;
+    padding: 0% 5%;
+    background-color:#17a2b8;
+    color:white;
+}
+
+#bodysection{
+    padding:2% 5%;
+    display:flex;
+}
+
+
+.userinformation{
+    flex: 4;
+    padding-right:3%;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.targetbody {
+    padding: 50px 20px 20px;
+    border-left: 3px groove rgb(177, 175, 175);
+    border-right: 3px groove rgb(177, 175, 175);
+    border-bottom: 3px groove rgb(177, 175, 175);
+}
+.top {
+    width: 100%;
+    background-color: #17a2b8;
+    height: 100px;
+}
+
+.container>img {
+    border: 2px inset gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 120px;
+}
+
+.settingsection img {
+    width: 20px;
+}
+
+.settingsection {
+    color: rgb(63, 113, 195);
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.locationsection img {
+    width: 13px;
+}
+
+.locationsection {
+    margin: 10px 0px;
+}
+
+.userinformation div {
+    font-size: auto;
+    font-weight: bold;
+}
+
+.usercontacts .top{
+    display: flex;
+    width:100%;
+    padding-top: 1px;
+    background-color: rgb(44, 42, 42);
+    justify-content:center;
+    align-items:center;
+}
+.usercontacts input{
+    border-radius: 50%;
+    margin: 10px;
+    padding:2%;
+}
+.usercontacts{
+    flex:1;
+    flex-direction: column;
+    color:white;
+}
+.education{
+    padding: 5px;
+    border: 2px groove rgb(177, 175, 175);
+}
+.titleeducation{
+    margin-top: 10px;
+    background-color: rgb(44,42,42);
+    color: white;
+    padding: 3px 10px;
+    border :2px solid rgb(44, 42, 42);;
+}
+.date{
+    color: rgb(92,92,92)
+}
+.connections{
+    border: 3px solid gray;
+    margin-top: 10px;
+}
+.connections button{
+    margin:10px;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.usercontact img{
+    width:25px;
+    height:25px;
+}
+
+.usercontact{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.usercontact p{
+    margin: 5px;
+    color: black;
+}
+.check{
+    margin:35%;
+}
+
+.morecontacts{
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+    border: 2px groove gray;
+}
+
+.contactrequest{
+    border: 3px solid gray;
+}
