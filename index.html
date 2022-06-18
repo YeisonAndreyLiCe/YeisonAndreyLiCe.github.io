@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="top"></div>
                 <div class="targetbody">
-                    <h1>Jane Doe</h1>
+                    <h1 id="name">Jane Doe</h1>
                     <div class="locationsection">
                         <img src="images/icons/map-marker.png" alt="location icon" />
                         Seattle
@@ -35,7 +35,7 @@
                     <div>
                         Master of shadows and the Internet!
                     </div>
-                    <div class="settingsection">
+                    <div class="settingsection" onclick="changeName()">
                         <img src="images/icons/gear.png" alt="setting icon" />
                         edit profile
                     </div>
@@ -56,25 +56,25 @@
         <div class="usercontacts">
             <div class="contactrequest">
                 <div class="top">
-                    <input type="button" value="2">
+                    <input type="button" value="2" class="request_number">
                     <p>Connection Request</p>
                 </div>
-                <div class="usercontact">
+                <div class="usercontact1">
                     <img src="images/icons/user-circle.png" alt="user">
                     <p>Tood E</p>
-                    <input type="button" value="&#x2713;" class="check">
-                    <input type="button" value="&#x2715;">
+                    <input type="button" value="&#x2713;" class="check" onclick="remove1(this)">
+                    <input type="button" value="&#x2715;" onclick="remove1(this)">
                 </div>
-                <div class="usercontact">
+                <div class="usercontact2">
                     <img src="images/icons/user-circle.png" alt="user">
                     <p>Phill K</p>
-                    <input type="button" value="&#x2713;" class="check">
-                    <input type="button" value="&#x2715;">
+                    <input type="button" value="&#x2713;" class="check" onclick="remove2(this)">
+                    <input type="button" value="&#x2715;" onclick="remove2(this)">
                 </div>
             </div>
             <div class="connections">
                 <div class="top">
-                    <button>500+</button>
+                    <button class="connections_number">500+</button>
                     <p>Your Connections</p>
                 </div>
                 <div class="usercontact">
@@ -99,5 +99,7 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -143,17 +143,17 @@ body {
     border-radius: 50%;
 }
 
-.usercontact img{
+.usercontact1 img, .usercontact2 img, .usercontact img{
     width:25px;
     height:25px;
 }
 
-.usercontact{
+.usercontact1, .usercontact2, .usercontact{
     margin-left: 10px;
     display: flex;
     align-items: center;
 }
-.usercontact p{
+.usercontact1 p, .usercontact2 p, .usercontact p{
     margin: 5px;
     color: black;
 }
