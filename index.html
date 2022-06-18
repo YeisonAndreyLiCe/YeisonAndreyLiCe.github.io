@@ -56,25 +56,25 @@
         <div class="usercontacts">
             <div class="contactrequest">
                 <div class="top">
-                    <input type="button" value="2" class="request_number">
+                    <input type="button" value="2" class="request_number" id="request">
                     <p>Connection Request</p>
                 </div>
-                <div class="usercontact1">
+                <div class="usercontact1" id="request-1">
                     <img src="images/icons/user-circle.png" alt="user">
                     <p>Tood E</p>
-                    <input type="button" value="&#x2713;" class="check" onclick="remove1(this)">
-                    <input type="button" value="&#x2715;" onclick="remove1(this)">
+                    <input type="button" value="&#x2713;" class="check" onclick="a('#request-1')">
+                    <input type="button" value="&#x2715;" onclick="decline('#request-1')">
                 </div>
-                <div class="usercontact2">
+                <div class="usercontact2" id="request-2">
                     <img src="images/icons/user-circle.png" alt="user">
                     <p>Phill K</p>
-                    <input type="button" value="&#x2713;" class="check" onclick="remove2(this)">
-                    <input type="button" value="&#x2715;" onclick="remove2(this)">
+                    <input type="button" value="&#x2713;" class="check" onclick="a('#request-2')">
+                    <input type="button" value="&#x2715;" onclick="decline('#request-2')">
                 </div>
             </div>
             <div class="connections">
                 <div class="top">
-                    <button class="connections_number">500+</button>
+                    <button class="connections_number" id="connections_number">500+</button>
                     <p>Your Connections</p>
                 </div>
                 <div class="usercontact">

@@ -1,11 +1,26 @@
-
 function changeName() {
     var name = document.querySelector("#name");
     name.innerText = "New Name";
 }
 
+var request = document.querySelector("#request");
+var connections = document.querySelector("#connections_number");
+var number = 500;
 
-var number = document.querySelector(".request_number");
+function a(id) {
+    var element = document.querySelector(id);
+    element.remove();
+    request.value--;
+    number++;
+    connections.innerText = number + "+"; 
+}
+function decline(id) {
+    request.value--;
+    var element = document.querySelector(id);
+    element.remove();
+}
+
+/*var number = document.querySelector(".request_number");
 var count = number.value; 
 var connections = document.querySelector(".connections_number");
 var connectionsCount = 500;
@@ -36,4 +51,4 @@ function remove2(element) {
         connectionsCount--;
         connections.innerText = connectionsCount + "+";
     }
-}
+}*/
